@@ -9,3 +9,6 @@ cmd - kubectl apply -f serviceAccount.yaml
 
 4. create volume
 cmd - kubectl create -f volume.yaml
+
+5. apply deployment.yaml
+cmd - kubectl apply -f deployment.yaml
