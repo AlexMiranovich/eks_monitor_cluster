@@ -7,3 +7,5 @@ cmd - kubectl create namespace devops-tools
 3. apply serviceAccount
 cmd - kubectl apply -f serviceAccount.yaml
 
+4. create volume
+cmd - kubectl create -f volume.yaml
