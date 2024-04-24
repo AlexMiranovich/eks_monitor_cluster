@@ -4,3 +4,6 @@ cmd - eksctl create cluster -f cluster.yaml
 2. create new namespace
 cmd - kubectl create namespace devops-tools
 
+3. apply serviceAccount
+cmd - kubectl apply -f serviceAccount.yaml
+
