@@ -18,3 +18,6 @@ kubectl apply -f prometheus-config.yaml
 
 7. apply prometheus-deployment.yaml
 kubectl apply -f prometheus-deployment.yaml
+
+8. apply prometheus-service.yaml
+kubectl apply -f prometheus-service.yaml
