@@ -21,3 +21,6 @@ kubectl apply -f prometheus-deployment.yaml
 
 8. apply prometheus-service.yaml
 kubectl apply -f prometheus-service.yaml
+
+9. apply argocd
+kubectl apply -n argocd -f \
