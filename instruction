@@ -1,14 +1,14 @@
 1. create cluster by cluster.yaml
-cmd - eksctl create cluster -f cluster.yaml
+eksctl create cluster -f cluster.yaml
 
 2. apply serviceAccount
-cmd - kubectl apply -f serviceAccount.yaml
+kubectl apply -f serviceAccount.yaml
 
 3. create volume
-cmd - kubectl create -f volume.yaml
+kubectl create -f volume.yaml
 
 4. apply deployment.yaml
-cmd - kubectl apply -f deployment.yaml
+kubectl apply -f deployment.yaml
 
 5. apply grafana
 kubectl create -f grafana-deployment.yaml  -f grafana-service.yaml 
