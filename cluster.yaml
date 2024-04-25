@@ -37,4 +37,9 @@ kind: Namespace
 metadata:
   name: devops-prometheus
 
-  
+___
+apiVersion: v1
+kind: Namespace
+
+metadata:
+  name: argocd
