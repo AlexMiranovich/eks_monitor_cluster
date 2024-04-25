@@ -23,4 +23,4 @@ kubectl apply -f prometheus-deployment.yaml
 kubectl apply -f prometheus-service.yaml
 
 9. apply argocd
-kubectl apply -n argocd -f \
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
