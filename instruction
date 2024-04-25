@@ -11,4 +11,4 @@ cmd - kubectl create -f volume.yaml
 cmd - kubectl apply -f deployment.yaml
 
 5. apply grafana
-kubectl create -f grafana-deployment.yaml -f grafana-pvc.yaml  -f grafana-service.yaml 
+kubectl create -f grafana-deployment.yaml  -f grafana-service.yaml 
