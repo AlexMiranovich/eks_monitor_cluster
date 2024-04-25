@@ -15,12 +15,6 @@ nodeGroups:
     desiredCapacity: 2
     volumeSize: 80
 
-___
-apiVersion: v1
-kind: Namespace
-
-metadata:
-  name: devops-monitor
 
 ___
 apiVersion: v1
@@ -28,3 +22,19 @@ kind: Namespace
 
 metadata:
   name: dev
+
+___
+apiVersion: v1
+kind: Namespace
+
+metadata:
+  name: devops-grafana
+  
+___
+apiVersion: v1
+kind: Namespace
+
+metadata:
+  name: devops-prometheus
+
+  
