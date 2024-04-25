@@ -15,3 +15,6 @@ kubectl create -f grafana-deployment.yaml  -f grafana-service.yaml
 
 6. apply prometheus-config.yaml
 kubectl apply -f prometheus-config.yaml
+
+7. apply prometheus-deployment.yaml
+kubectl apply -f prometheus-deployment.yaml
